@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/santon-test/static/css/main.1ca7b063.chunk.css",
+    "main.js": "/santon-test/static/js/main.51308054.chunk.js",
+    "main.js.map": "/santon-test/static/js/main.51308054.chunk.js.map",
+    "runtime-main.js": "/santon-test/static/js/runtime-main.84c7d48d.js",
+    "runtime-main.js.map": "/santon-test/static/js/runtime-main.84c7d48d.js.map",
+    "static/js/2.f1d46939.chunk.js": "/santon-test/static/js/2.f1d46939.chunk.js",
+    "static/js/2.f1d46939.chunk.js.map": "/santon-test/static/js/2.f1d46939.chunk.js.map",
+    "index.html": "/santon-test/index.html",
+    "static/css/main.1ca7b063.chunk.css.map": "/santon-test/static/css/main.1ca7b063.chunk.css.map",
+    "static/js/2.f1d46939.chunk.js.LICENSE.txt": "/santon-test/static/js/2.f1d46939.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84c7d48d.js",
+    "static/js/2.f1d46939.chunk.js",
+    "static/css/main.1ca7b063.chunk.css",
+    "static/js/main.51308054.chunk.js"
+  ]
+}
