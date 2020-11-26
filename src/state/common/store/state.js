@@ -24,4 +24,10 @@ export const state = {
       },
     ],
   },
+  auth: {
+    auth: {
+      login: "",
+      password: "",
+    },
+  },
 };

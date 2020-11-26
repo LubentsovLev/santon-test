@@ -6,8 +6,7 @@ let Modal = (props) => {
   const descriptionInput = React.useRef(null);
   const priceInput = React.useRef(null);
 
-  const handleSubmit = () => {
-    debugger;
+  const deleteItem = () => {
     let inst = {
       id: idInput.current.value,
       title: titleInput.current.value,
@@ -42,7 +41,7 @@ let Modal = (props) => {
       <input ref={priceInput} name="price" placeholder="price" required></input>
       <button
         onClick={() => {
-          handleSubmit();
+          deleteItem();
         }}
       >
         Add card

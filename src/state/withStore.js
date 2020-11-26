@@ -3,7 +3,6 @@ import { Registry } from "./common/store/registry";
 
 export function withStore(storeName, fill) {
   const store = Registry.getStore(storeName);
-  console.log(store);
   return function (Component) {
     return class extends React.Component {
       static displayName = Component.displayName;

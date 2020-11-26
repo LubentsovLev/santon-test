@@ -5,7 +5,6 @@ export class Store {
     if (!name) {
       throw new Error("Could not create store without name!");
     }
-
     const config = {
       options: this.getOptions(initialConfig.options),
       reducers: this.getReducers(initialConfig.reducers),
@@ -15,14 +14,12 @@ export class Store {
     this.listeners = [];
     this.config = config;
     this.data = initialConfig.data || {};
-
     if (this.config.options.shouldInitFromState) {
       if (!this.config.options.stateKey) {
         throw new Error(
           "shouldInitFromState is true, but stateKey is not stated!"
         );
       }
-
       this.initFromGlobalState();
     }
   }

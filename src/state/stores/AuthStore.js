@@ -5,7 +5,7 @@ export const SET_AUTH = "SET_AUTH";
 export const REMOVE_AUTH = "REMOVE_AUTH";
 
 const AuthStore = new Store("auth", {
-  data: {
+  auth: {
     login: "",
     password: "",
   },
@@ -17,11 +17,9 @@ const AuthStore = new Store("auth", {
     {
       type: SET_AUTH,
       action(state, payload) {
-        const login = [...state.auth, payload];
-
+        const auth = payload.auth;
         return {
-          ...state,
-          login,
+          auth,
         };
       },
     },
